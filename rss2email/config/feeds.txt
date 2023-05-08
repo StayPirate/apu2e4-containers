@@ -173,6 +173,10 @@ https://mjg59.dreamwidth.org/data/atom
 - template: /templates/default.tmpl
 - delay: 5
 
+# Scott Helme personal Blog
+https://scotthelme.co.uk/rss/
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
