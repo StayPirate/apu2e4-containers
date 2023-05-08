@@ -365,6 +365,10 @@ https://gitlab.suse.de/security/imtools.atom
 https://github.com/StayPirate/secbox/tags.atom
 - template: /templates/default.tmpl
 
+# secbox-image
+https://gitlab.suse.de/security/secbox-image.atom
+- template: /templates/default.tmpl
+
 # Nmap/Npcap announcements are fetched from the nmap announce ML.
 # https://nmap.org/mailman/listinfo/announce
 
