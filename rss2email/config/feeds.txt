@@ -177,6 +177,10 @@ https://mjg59.dreamwidth.org/data/atom
 https://scotthelme.co.uk/rss/
 - template: /templates/default.tmpl
 
+# Martijn Braam personal Blog
+https://blog.brixit.nl/rss/
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
