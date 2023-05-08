@@ -472,3 +472,7 @@ https://opensourcesecuritypodcast.libsyn.com/rss
 http://rss-bridge-proxy.home/spotify/show/7CFsvR9lOLZiNoVDUltL9X
 - template: /templates/default.tmpl
 - delay: 5
+
+# Naked Security Podcast from Sophos
+http://rss-bridge-proxy.home/spotify/show/4AhwI3oHRgqO4v4Q5ZGaq9
+- template: /templates/default.tmpl
