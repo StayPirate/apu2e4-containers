@@ -430,6 +430,10 @@ https://linuxiac.com/feed/
 https://devops.com/feed/
 - template: /templates/default.tmpl
 
+# Devclass
+https://devclass.com/feed/
+- template: /templates/default.tmpl
+
 #   ██╗    ██╗ ██████╗ ██████╗ ██╗  ██╗
 #   ██║    ██║██╔═══██╗██╔══██╗██║ ██╔╝
 #   ██║ █╗ ██║██║   ██║██████╔╝█████╔╝ 
