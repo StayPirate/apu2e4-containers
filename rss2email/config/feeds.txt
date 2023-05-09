@@ -422,6 +422,10 @@ http://rss-bridge.home/?action=display&bridge=HaveIBeenPwnedBridge&order=dateAdd
 https://linuxiac.com/feed/
 - template: /templates/default.tmpl
 
+# devops.com
+https://devops.com/feed/
+- template: /templates/default.tmpl
+
 #   ██╗    ██╗ ██████╗ ██████╗ ██╗  ██╗
 #   ██║    ██║██╔═══██╗██╔══██╗██║ ██╔╝
 #   ██║ █╗ ██║██║   ██║██████╔╝█████╔╝ 
