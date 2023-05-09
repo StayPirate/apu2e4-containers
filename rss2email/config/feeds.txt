@@ -181,6 +181,10 @@ https://scotthelme.co.uk/rss/
 https://blog.brixit.nl/rss/
 - template: /templates/default.tmpl
 
+# Memorysafety
+https://www.memorysafety.org/index.xml
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
