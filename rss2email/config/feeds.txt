@@ -418,6 +418,10 @@ https://web3isgoinggreat.com/feed.xml
 http://rss-bridge.home/?action=display&bridge=HaveIBeenPwnedBridge&order=dateAdded&item_limit=20&format=Atom
 - template: /templates/default.tmpl
 
+# Linuxiac
+https://linuxiac.com/feed/
+- template: /templates/default.tmpl
+
 #   ██╗    ██╗ ██████╗ ██████╗ ██╗  ██╗
 #   ██║    ██║██╔═══██╗██╔══██╗██║ ██╔╝
 #   ██║ █╗ ██║██║   ██║██████╔╝█████╔╝ 
