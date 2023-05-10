@@ -434,6 +434,10 @@ https://devops.com/feed/
 https://devclass.com/feed/
 - template: /templates/default.tmpl
 
+# Phoronix
+https://www.phoronix.com/rss.php
+- template: /templates/default.tmpl
+
 #   ██╗    ██╗ ██████╗ ██████╗ ██╗  ██╗
 #   ██║    ██║██╔═══██╗██╔══██╗██║ ██╔╝
 #   ██║ █╗ ██║██║   ██║██████╔╝█████╔╝ 
