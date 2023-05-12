@@ -185,6 +185,10 @@ https://blog.brixit.nl/rss/
 https://www.memorysafety.org/index.xml
 - template: /templates/default.tmpl
 
+# Elastic - Security Labs
+https://www.elastic.co/security-labs/feed
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
