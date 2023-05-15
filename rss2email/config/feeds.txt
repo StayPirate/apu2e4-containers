@@ -189,6 +189,10 @@ https://www.memorysafety.org/index.xml
 https://www.elastic.co/security-labs/feed
 - template: /templates/default.tmpl
 
+# Aqua Security
+https://blog.aquasec.com/rss.xml
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
