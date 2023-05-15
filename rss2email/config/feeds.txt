@@ -193,6 +193,10 @@ https://www.elastic.co/security-labs/feed
 https://blog.aquasec.com/rss.xml
 - template: /templates/default.tmpl
 
+# Symantec Security Blog
+https://sed-cms.broadcom.com/rss/v1/blogs/rss.xml
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
