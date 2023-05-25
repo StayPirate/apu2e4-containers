@@ -209,6 +209,10 @@ https://doar-e.github.io/feeds/atom.xml
 http://blog.pi3.com.pl/?feed=rss2
 - template: /templates/default.tmpl
 
+# Thalium
+https://blog.thalium.re/index.xml
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
