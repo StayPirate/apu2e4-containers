@@ -213,6 +213,10 @@ http://blog.pi3.com.pl/?feed=rss2
 https://blog.thalium.re/index.xml
 - template: /templates/default.tmpl
 
+# James (tiraniddo) Forshaw - Google Project Zero
+https://www.tiraniddo.dev/feeds/posts/default
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
