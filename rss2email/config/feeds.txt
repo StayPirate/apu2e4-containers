@@ -197,6 +197,10 @@ https://blog.aquasec.com/rss.xml
 https://sed-cms.broadcom.com/rss/v1/blogs/rss.xml
 - template: /templates/default.tmpl
 
+# Jared Candelaria poersonal blog
+https://calabi-yau.space/blog/feeds/all.atom.xml
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
