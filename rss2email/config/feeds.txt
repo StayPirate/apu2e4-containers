@@ -217,6 +217,10 @@ https://blog.thalium.re/index.xml
 https://www.tiraniddo.dev/feeds/posts/default
 - template: /templates/default.tmpl
 
+# Moshe (0xkol) Kol
+https://0xkol.github.io/feed.xml
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
