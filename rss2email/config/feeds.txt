@@ -413,6 +413,10 @@ https://developer.apple.com/news/releases/rss/releases.rss
 http://rss-bridge.home/?action=display&bridge=CodebergBridge&context=Releases&username=dnkl&repo=foot&format=Atom
 - template: /templates/default.tmpl
 
+# Wireshark
+https://gitlab.com/wireshark/wireshark/-/tags?format=atom
+- template: /templates/default.tmpl
+
 #   ███╗   ██╗███████╗██╗    ██╗███████╗
 #   ████╗  ██║██╔════╝██║    ██║██╔════╝
 #   ██╔██╗ ██║█████╗  ██║ █╗ ██║███████╗
