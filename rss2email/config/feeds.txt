@@ -211,7 +211,7 @@ http://blog.pi3.com.pl/?feed=rss2
 
 # Thalium
 https://blog.thalium.re/index.xml
-- template: /templates/default.tmpl
+- template: /templates/thalium.tmpl
 
 # James (tiraniddo) Forshaw - Google Project Zero
 https://www.tiraniddo.dev/feeds/posts/default
