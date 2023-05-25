@@ -205,6 +205,10 @@ https://calabi-yau.space/blog/feeds/all.atom.xml
 https://doar-e.github.io/feeds/atom.xml
 - template: /templates/default.tmpl
 
+# Adam Zabrocki personal Blog
+http://blog.pi3.com.pl/?feed=rss2
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
