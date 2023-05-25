@@ -201,6 +201,10 @@ https://sed-cms.broadcom.com/rss/v1/blogs/rss.xml
 https://calabi-yau.space/blog/feeds/all.atom.xml
 - template: /templates/default.tmpl
 
+# Diary of a reverse-engineer (Axel -0vercl0k- Souchet)
+https://doar-e.github.io/feeds/atom.xml
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
