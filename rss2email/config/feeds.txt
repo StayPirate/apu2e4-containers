@@ -225,6 +225,10 @@ https://0xkol.github.io/feed.xml
 https://blogs.jpcert.or.jp/en/atom.xml
 - template: /templates/default.tmpl
 
+# ESET research
+https://www.welivesecurity.com/category/cybercrime,malware,eset-research,mobile-security,ransomware,critical-infrastructure,threat-reports,secure-coding/feed/
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
