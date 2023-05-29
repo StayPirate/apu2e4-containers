@@ -221,6 +221,10 @@ https://www.tiraniddo.dev/feeds/posts/default
 https://0xkol.github.io/feed.xml
 - template: /templates/default.tmpl
 
+# JPCERT Coordination Center official Blog
+https://blogs.jpcert.or.jp/en/atom.xml
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
