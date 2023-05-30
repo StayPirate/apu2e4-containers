@@ -229,6 +229,10 @@ https://blogs.jpcert.or.jp/en/atom.xml
 https://www.welivesecurity.com/category/cybercrime,malware,eset-research,mobile-security,ransomware,critical-infrastructure,threat-reports,secure-coding/feed/
 - template: /templates/default.tmpl
 
+# ZDI Blog
+https://www.zerodayinitiative.com/blog/?format=rss
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
@@ -371,6 +375,14 @@ http://rss-bridge.home/?action=display&bridge=OpenwrtSecurityBridge&format=Atom
 
 # Gitlab
 https://about.gitlab.com/security-releases.xml
+- template: /templates/default.tmpl
+
+# ZDI Upcoming SA
+https://www.zerodayinitiative.com/rss/upcoming/
+- template: /templates/default.tmpl
+
+# ZDI Published SA
+https://www.zerodayinitiative.com/rss/published/
 - template: /templates/default.tmpl
 
 #### TODO  #### # Android Monthly Security Bulletin
