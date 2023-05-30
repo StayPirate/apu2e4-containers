@@ -292,7 +292,8 @@ https://www.drupal.org/security/rss.xml
 - template: /templates/default.tmpl
 
 # PowerDNS
-https://blog.powerdns.com/feed/
+# OLD https://blog.powerdns.com/feed/
+https://blog.powerdns.com/rss.xml
 - template: /templates/default.tmpl
 
 # RustSec Advisories
