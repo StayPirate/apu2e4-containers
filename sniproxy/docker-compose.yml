@@ -1,0 +1,25 @@
+version: "3.9"
+
+services:
+  sniproxy:
+    build:
+      context: ./
+    image: sniproxy:local
+    container_name: sniproxy
+    volumes:
+      - ./sniproxy.conf:/etc/sniproxy/sniproxy.conf:ro
+    dns: 172.16.70.1
+    networks:
+      sniproxy_vlan:
+        ipv4_address: 172.16.70.2
+    restart: always
+
+networks:
+  sniproxy_vlan:
+    driver: macvlan
+    driver_opts:
+      parent: enp1s0.70
+    ipam:
+      config:
+        - subnet: 172.16.70.0/24
+          gateway: 172.16.70.1
