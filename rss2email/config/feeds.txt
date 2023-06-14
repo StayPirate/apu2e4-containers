@@ -466,6 +466,10 @@ http://rss-bridge.home/?action=display&bridge=CodebergBridge&context=Releases&us
 https://gitlab.com/wireshark/wireshark/-/tags?format=atom
 - template: /templates/default.tmpl
 
+# SNIProxy
+https://github.com/dlundquist/sniproxy/tags.atom
+- template: /templates/default.tmpl
+
 #   ███╗   ██╗███████╗██╗    ██╗███████╗
 #   ████╗  ██║██╔════╝██║    ██║██╔════╝
 #   ██╔██╗ ██║█████╗  ██║ █╗ ██║███████╗
