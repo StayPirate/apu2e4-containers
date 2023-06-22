@@ -233,6 +233,10 @@ https://www.welivesecurity.com/category/cybercrime,malware,eset-research,mobile-
 https://www.zerodayinitiative.com/blog/?format=rss
 - template: /templates/default.tmpl
 
+# AhnLab Security Emergency Response Center (ASEC)
+https://asec.ahnlab.com/en/feed/
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
