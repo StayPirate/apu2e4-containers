@@ -237,6 +237,10 @@ https://www.zerodayinitiative.com/blog/?format=rss
 https://asec.ahnlab.com/en/feed/
 - template: /templates/default.tmpl
 
+# KPXC Blog
+https://keepassxc.org/blog/index.xml
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
