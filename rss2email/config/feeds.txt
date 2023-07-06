@@ -579,5 +579,5 @@ https://feeds.twit.tv/sn.xml
 - template: /templates/default.tmpl
 
 # The ReadME Podcast from Github
-https://feeds.simplecast.com/ioCY0vfY
+http://rss-bridge-proxy.home/spotify/show/660KitvdJDX2vUmioAbwSQ
 - template: /templates/default.tmpl
