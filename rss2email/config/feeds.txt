@@ -577,3 +577,7 @@ http://rss-bridge-proxy.home/spotify/show/4AhwI3oHRgqO4v4Q5ZGaq9
 # Security Now
 https://feeds.twit.tv/sn.xml
 - template: /templates/default.tmpl
+
+# The ReadME Podcast from Github
+https://feeds.simplecast.com/ioCY0vfY
+- template: /templates/default.tmpl
