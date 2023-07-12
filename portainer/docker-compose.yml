@@ -1,0 +1,28 @@
+version: "3.9"
+services:
+  portainer:
+    image: portainer/portainer-ce:latest
+    hostname: portainer
+    container_name: portainer
+    ports:
+      - 443:9443
+    volumes:
+      - ./data:/data
+      - /var/run/docker.sock:/var/run/docker.sock
+    restart: unless-stopped
+    dns:
+      - 172.16.6.1
+    mac_address: de:ad:be:ef:06:03
+    networks:
+      mgmt_vlan:
+        ipv4_address: 172.16.6.3
+networks:
+  mgmt_vlan:
+    name: mgmt_vlan
+    driver: macvlan
+    driver_opts:
+      parent: enp1s0
+    ipam:
+      config:
+        - subnet: 172.16.6.0/24
+          gateway: 172.16.6.1
