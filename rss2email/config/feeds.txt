@@ -68,9 +68,10 @@ https://feeds.feedburner.com/GoogleOnlineSecurityBlog
 https://blog.google/rss/
 - template: /templates/chrome-blog.tmpl
 
+# Disabled until https://github.com/skx/rss2email/issues/103 is resolved
 # Microsoft security blog
-https://www.microsoft.com/security/blog/feed/
-- template: /templates/default.tmpl
+#https://www.microsoft.com/security/blog/feed/
+#- template: /templates/default.tmpl
 
 https://msrc-blog.microsoft.com/feed/
 - template: /templates/default.tmpl
@@ -225,9 +226,10 @@ https://0xkol.github.io/feed.xml
 https://blogs.jpcert.or.jp/en/atom.xml
 - template: /templates/default.tmpl
 
+# Disabled until https://github.com/skx/rss2email/issues/103 is resolved
 # ESET research
-https://www.welivesecurity.com/category/cybercrime,malware,eset-research,mobile-security,ransomware,critical-infrastructure,threat-reports,secure-coding/feed/
-- template: /templates/default.tmpl
+#https://www.welivesecurity.com/category/cybercrime,malware,eset-research,mobile-security,ransomware,critical-infrastructure,threat-reports,secure-coding/feed/
+#- template: /templates/default.tmpl
 
 # ZDI Blog
 https://www.zerodayinitiative.com/blog/?format=rss
