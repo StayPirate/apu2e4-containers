@@ -583,3 +583,8 @@ https://feeds.twit.tv/sn.xml
 # The ReadME Podcast from Github
 http://rss-bridge-proxy.home/spotify/show/660KitvdJDX2vUmioAbwSQ
 - template: /templates/default.tmpl
+
+# The Cyber Show
+# https://cybershow.uk/
+http://rss-bridge-proxy.home/spotify/show/0av5zTSOSIuBBtOjqjJWFc
+- template: /templates/default.tmpl
