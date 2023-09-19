@@ -243,6 +243,10 @@ https://asec.ahnlab.com/en/feed/
 https://keepassxc.org/blog/index.xml
 - template: /templates/default.tmpl
 
+# Wiz Blog
+https://www.wiz.io/blog/rss
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
