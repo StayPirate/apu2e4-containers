@@ -247,6 +247,10 @@ https://keepassxc.org/blog/index.xml
 https://www.wiz.io/blog/rss
 - template: /templates/default.tmpl
 
+# Isosceles
+https://blog.isosceles.com/rss/
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
