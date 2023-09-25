@@ -1,0 +1,97 @@
+{
+    "audio": {
+        "device_index": 1,
+        "device_name": "default",
+        "fft_size": 2048,
+        "host_api": 0,
+        "mic_rate": 44100
+    },
+    "crossfade": 1.0,
+    "custom_presets": {},
+    "dev_mode": false,
+    "devices": [
+        {
+            "config": {
+                "center_offset": 0,
+                "channel_count": 372,
+                "channel_offset": 0,
+                "e131_Packet_Priority": 100,
+                "force_refresh": false,
+                "icon_name": "SettingsInputComponent",
+                "ip_address": "wled-desk.home",
+                "max_brightness": 1,
+                "name": "Desk",
+                "pixel_count": 124,
+                "preview_only": false,
+                "refresh_rate": 60,
+                "type": "e131",
+                "universe": 1,
+                "universe_end": 1,
+                "universe_size": 510
+            },
+            "effect": {
+                "config": {
+                    "active": true,
+                    "config": {
+                        "active": true,
+                        "background_color": "black",
+                        "blur": 3,
+                        "brightness": 1,
+                        "config": {
+                            "active": true,
+                            "background_color": "black",
+                            "blur": 3,
+                            "brightness": 1,
+                            "flip": false,
+                            "gradient_name": "Rainbow",
+                            "gradient_repeat": 1,
+                            "gradient_roll": 0,
+                            "mirror": false
+                        },
+                        "flip": false,
+                        "gradient_name": "Rainbow",
+                        "gradient_repeat": 1,
+                        "gradient_roll": 0,
+                        "isProcessing": false,
+                        "mirror": false,
+                        "name": "Wavelength",
+                        "type": "wavelength(Reactive)"
+                    },
+                    "isProcessing": false,
+                    "name": "Wavelength",
+                    "type": "wavelength(Reactive)"
+                },
+                "type": "wavelength(Reactive)"
+            },
+            "id": "wled",
+            "type": "e131"
+        },
+        {
+            "config": {
+                "center_offset": 0,
+                "channel_count": 726,
+                "channel_offset": 0,
+                "e131_Packet_Priority": 100,
+                "force_refresh": false,
+                "icon_name": "SettingsInputComponent",
+                "ip_address": "wled-cucina.home",
+                "max_brightness": 1.0,
+                "name": "Cucina",
+                "pixel_count": 242,
+                "preview_only": false,
+                "refresh_rate": 60,
+                "universe": 1,
+                "universe_end": 2,
+                "universe_size": 510
+            },
+            "id": "cucina",
+            "type": "e131"
+        }
+    ],
+    "fade": 1.0,
+    "host": "0.0.0.0",
+    "integrations": [],
+    "port": 80,
+    "scenes": {},
+    "virtuals": []
+}

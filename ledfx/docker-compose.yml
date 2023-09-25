@@ -1,0 +1,51 @@
+version: "3.9"
+services:
+#  ledfx-pipewire:
+#    build: ./ledfx-pipewire
+#    image: ledfx-pipewire:local
+#    hostname: ledfx-pipewire
+#    container_name: ledfx-pipewire
+#    environment:
+#      - XDG_RUNTIME_DIR=/tmp
+#    volumes:
+#      - /run/user/1000/pipewire-0:/tmp/pipewire-0
+#      - ./config:/home/ledfx/.ledfx
+#    restart: unless-stopped
+#    ports:
+#      - 5353:5353
+#      - 80:80
+#    mac_address: de:ad:be:ef:05:12
+#    networks:
+#      iot_vlan:
+#        ipv4_address: 172.16.5.12
+
+  ledfx:
+    build: ./
+    image: ledfx:local
+    hostname: ledfx
+    container_name: ledfx
+    volumes:
+      - ./config:/home/ledfx/.ledfx
+    devices:
+      - /dev/snd:/dev/snd # To make it work with host alsa device
+    restart: unless-stopped
+    ports:
+      - 5353:5353
+      - 80:80
+    dns:
+      - 172.16.5.1
+    mac_address: de:ad:be:ef:05:12
+    networks:
+      iot_vlan:
+        ipv4_address: 172.16.5.12
+
+networks:
+  iot_vlan:
+    name: iot_vlan
+    driver: macvlan
+    driver_opts:
+      parent: enp1s0.5
+    ipam:
+      config:
+        - subnet: 172.16.5.0/24
+          gateway: 172.16.5.1
