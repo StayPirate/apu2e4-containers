@@ -10,3 +10,4 @@ rss-bridge/rss-bridge-proxy/.env
 irc/thelounge/*.key
 irc/thelounge/packages/package_manager_cache
 /ledfx/config/LedFx.log*
+spotifyd/.env

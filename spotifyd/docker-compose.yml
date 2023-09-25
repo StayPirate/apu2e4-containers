@@ -1,0 +1,32 @@
+version: "3.9"
+services:
+  # https://github.com/Spotifyd/spotifyd
+  spotifyd:
+    build: ./
+    image: spotifyd:local
+    hostname: spotifyd
+    container_name: spotifyd
+    env_file:
+      - .env
+    volumes:
+      - ./config:/home/spotify/config
+    devices:
+      - /dev/snd:/dev/snd # To make it work with host alsa device
+    restart: unless-stopped
+    dns:
+      - 172.16.5.1
+    mac_address: de:ad:be:ef:05:14
+    networks:
+      iot_vlan:
+        ipv4_address: 172.16.5.14
+
+networks:
+  iot_vlan:
+    name: iot_vlan
+    driver: macvlan
+    driver_opts:
+      parent: enp1s0.5
+    ipam:
+      config:
+        - subnet: 172.16.5.0/24
+          gateway: 172.16.5.1
