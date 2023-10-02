@@ -251,6 +251,10 @@ https://www.wiz.io/blog/rss
 https://blog.isosceles.com/rss/
 - template: /templates/default.tmpl
 
+# Gitlab Blog
+https://about.gitlab.com/atom.xml
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
