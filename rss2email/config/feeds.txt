@@ -489,7 +489,7 @@ https://developer.apple.com/news/releases/rss/releases.rss
 
 # Foot Releases
 # https://codeberg.org/dnkl/foot/releases
-http://rss-bridge.home/?action=display&bridge=CodebergBridge&context=Releases&username=dnkl&repo=foot&format=Atom
+https://codeberg.org/dnkl/foot/releases.rss
 - template: /templates/default.tmpl
 
 # Wireshark
