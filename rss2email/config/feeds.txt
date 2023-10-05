@@ -255,6 +255,10 @@ https://blog.isosceles.com/rss/
 https://about.gitlab.com/atom.xml
 - template: /templates/default.tmpl
 
+# Binarly Blog Post
+https://binarly.io/rss-posts.xml
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
@@ -406,6 +410,10 @@ https://www.zerodayinitiative.com/rss/upcoming/
 
 # ZDI Published SA
 https://www.zerodayinitiative.com/rss/published/
+- template: /templates/default.tmpl
+
+# Binarly SA
+https://binarly.io/rss-advisories.xml
 - template: /templates/default.tmpl
 
 #### TODO  #### # Android Monthly Security Bulletin
