@@ -259,6 +259,10 @@ https://about.gitlab.com/atom.xml
 https://binarly.io/rss-posts.xml
 - template: /templates/default.tmpl
 
+# First Blog
+https://www.first.org/blog/rss.xml
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
