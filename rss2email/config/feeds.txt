@@ -608,3 +608,8 @@ http://rss-bridge-proxy.home/spotify/show/660KitvdJDX2vUmioAbwSQ
 # https://cybershow.uk/
 http://rss-bridge-proxy.home/spotify/show/0av5zTSOSIuBBtOjqjJWFc
 - template: /templates/default.tmpl
+
+# FIRST Impressions
+# https://www.first.org/podcasts
+http://rss-bridge-proxy.home/spotify/show/6mdVBCDxhGKuULeca9psdl
+- template: /templates/default.tmpl
