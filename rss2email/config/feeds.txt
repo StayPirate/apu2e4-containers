@@ -267,6 +267,10 @@ https://www.first.org/blog/rss.xml
 https://trickest.com/blog/index.xml
 - template: /templates/default.tmpl
 
+# Trickest Reports
+https://trickest.com/reports/index.xml
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
