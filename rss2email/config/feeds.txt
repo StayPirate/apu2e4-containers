@@ -259,8 +259,12 @@ https://about.gitlab.com/atom.xml
 https://binarly.io/rss-posts.xml
 - template: /templates/default.tmpl
 
-# First Blog
+# FIRST Blog
 https://www.first.org/blog/rss.xml
+- template: /templates/default.tmpl
+
+# Trickest Blog
+https://trickest.com/blog/index.xml
 - template: /templates/default.tmpl
 
 #### TODO  #### # https://ryanagood.com/
