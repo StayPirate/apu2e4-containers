@@ -271,6 +271,10 @@ https://trickest.com/blog/index.xml
 https://trickest.com/reports/index.xml
 - template: /templates/default.tmpl
 
+# Steve on Security Blog
+https://syfuhs.net/feed/rss
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
