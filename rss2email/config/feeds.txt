@@ -275,6 +275,10 @@ https://trickest.com/reports/index.xml
 https://syfuhs.net/feed/rss
 - template: /templates/default.tmpl
 
+# Maksim Chudakov Blog
+https://www.chudamax.com/feed.xml
+- template: /templates/default.tmpl
+
 #### TODO  #### # https://ryanagood.com/
 #### TODO  #### # I can make it with urlwatch
 #### TODO  #### 
