@@ -6,7 +6,7 @@ services:
     env_file:
       - .env
     restart: unless-stopped
-    image: tuxmealux/rss2email:latest
+    image: ghcr.io/skx/rss2email:master
     volumes:
       - ./config:/root/.rss2email
       - /etc/localtime:/etc/localtime:ro 
