@@ -279,8 +279,12 @@ https://syfuhs.net/feed/rss
 https://www.chudamax.com/feed.xml
 - template: /templates/default.tmpl
 
-# The Hacker's Choice (THC)
+# The Hacker's Choice (THC) Blog
 https://blog.thc.org/rss.xml
+- template: /templates/default.tmpl
+
+# The Hacker's Choice (THC) KB
+https://iq.thc.org/rss.xml
 - template: /templates/default.tmpl
 
 #### TODO  #### # https://ryanagood.com/
