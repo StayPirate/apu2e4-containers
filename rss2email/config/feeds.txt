@@ -471,10 +471,6 @@ https://feeds.feedburner.com/ClamAV
 https://chromereleases.googleblog.com/atom.xml
 - template: /templates/chrome-blog.tmpl
 
-# Podman releases
-https://github.com/containers/podman/releases.atom
-- template: /templates/default.tmpl
-
 # Intel microcode
 https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/tags.atom
 - template: /templates/default.tmpl
@@ -522,10 +518,6 @@ https://codeberg.org/dnkl/foot/releases.rss
 
 # Wireshark
 https://gitlab.com/wireshark/wireshark/-/tags?format=atom
-- template: /templates/default.tmpl
-
-# SNIProxy
-https://github.com/dlundquist/sniproxy/tags.atom
 - template: /templates/default.tmpl
 
 #   ███╗   ██╗███████╗██╗    ██╗███████╗
